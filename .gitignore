@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+
+# PyCharm / JetBrains IDE project files
+.idea/
+
+# VS Code settings (if you ever open in VSCode)
+.vscode/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Environment variable / secret files
+*.env
+
+# Logs
+*.log
+
+# Test result caches
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# MyPy, Pylint, and similar tool caches
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Jupyter Notebook checkpoints (if you use notebooks)
+.ipynb_checkpoints/
+
+# Build / distribution folders
+build/
+dist/
+*.egg-info/
