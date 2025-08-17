@@ -10,14 +10,14 @@ venv/
 # PyCharm / JetBrains IDE project files
 .idea/
 
-# VS Code settings (if you ever open in VSCode)
+# VS Code settings
 .vscode/
 
 # macOS / Windows system files
 .DS_Store
 Thumbs.db
 
-# Environment variable / secret files
+# Environment variable
 *.env
 
 # Logs
@@ -34,7 +34,7 @@ coverage.xml
 .pyre/
 .pytype/
 
-# Jupyter Notebook checkpoints (if you use notebooks)
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
 # Build / distribution folders
