@@ -39,7 +39,7 @@ class CoffeeMachine:
 def get_active_machine():
     if machine.coffee_beans > 0 or machine.milk > 0 or machine.water > 0:
          return machine
-    else:
+    else
         return new_machine
 
 machine = CoffeeMachine(300, 500, 5000, 1000)
