@@ -20,5 +20,5 @@ custom = Costum(10, 20)
 print(custom.total())  
 print(len(custom.total()))  # Output: 9, beacause "total= 30" has 9 characters
 print(len(custom)) # Output: 2, because takes it from customized __len__ method
-print(custom)
-print(str(custom))  # Output: this is a custom string method, because takes it from customized __str__ method
+print(custom) # Output: this is a custom string method
+print(str(custom)) # Output: this is a custom string method
