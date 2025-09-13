@@ -16,12 +16,12 @@ class City:
         self.area_code = input('Area-code: ')
 
     def output_data(self):
-        print(f'City: {self.city_name}\n')
-        print(f'Region: {self.region_name}\n')
-        print(f'Country: {self.country_name}\n')
-        print(f'Population amount: {self.population}\n')
-        print(f'Zip-code: {self.zip_code}\n')
-        print(f'Area-code: {self.area_code}\n')
+        print(f'\nCity: {self.city_name}')
+        print(f'Region: {self.region_name}')
+        print(f'Country: {self.country_name}')
+        print(f'Population amount: {self.population}')
+        print(f'Zip-code: {self.zip_code}')
+        print(f'Area-code: {self.area_code}')
 
 
 my_city = City()
