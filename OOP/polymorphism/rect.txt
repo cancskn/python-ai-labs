@@ -1,0 +1,1 @@
+Rectangle sizes: 5x10

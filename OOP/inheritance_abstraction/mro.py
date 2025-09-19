@@ -1,5 +1,5 @@
 # Method Resolution Order (MRO)
-# Defines the order in which Python looks up methods and attributes in classes during inheritance.
+# Defines the order in which Python looks up methods and attributes in classes during inheritance_abstraction.
 
 class A:
     num = 100
