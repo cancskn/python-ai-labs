@@ -22,5 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name="home"),
     path('total/', calculate, name="calculate"),
-
+    path('date/', day_of_week, name="date"),
+    path('quote/', random_quote, name="quote"),
+    path('data/', data, name="data"),
 ]
