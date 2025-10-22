@@ -3,10 +3,7 @@ from datetime import datetime
 import random
 
 def index(request):
-    return HttpResponse('hello world')
-
-def calculate(request):
-    return render(request, "index.html")
+    return render(request, 'index.html')
 
 def day_of_week(request):
     day = datetime.now().strftime("%A")
@@ -31,4 +28,17 @@ def data(request):
         first_name = request.POST.get("name")
         last_name = request.POST.get("lastname")
     print(first_name, last_name)
-    return render(request, "index.html", {first_name, last_name})
+    return render(request, "data.html", {first_name, last_name})
+
+def news(request):
+    return render(request, 'news.html')
+
+def about_us(request):
+    return render(request, 'about.html')
+
+def branch(request):
+    return render(request, 'branches/details.html')
+
+def custom_error(request, exception):
+    return render(request, '404.html', status=404)
+

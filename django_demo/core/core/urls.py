@@ -17,12 +17,22 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from home.views import *
+from country.views import *
 
 urlpatterns = [
+
     path('admin/', admin.site.urls),
+    path('', country_index, name="country"),
     path('', index, name="home"),
-    path('total/', calculate, name="calculate"),
     path('date/', day_of_week, name="date"),
     path('quote/', random_quote, name="quote"),
     path('data/', data, name="data"),
+    path('news/', news, name='news'),
+    path('about-us/', about_us, name="about"),
+    path('branches/', branch, name="branch"),
+    path('about-us/', about_us, name="about"),
+
+    
 ]
+
+# handler404 = 'home.views.custom_error'
